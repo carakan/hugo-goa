@@ -12,17 +12,11 @@
 
 <base href="{{ .Site.BaseURL }}">
 
-<<<<<<< HEAD
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}
 </title>
 
 {{ hugo.Generator }}
-=======
-<title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}</title>
-
-{{ .hugo.Generator }}
->>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 
 {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
