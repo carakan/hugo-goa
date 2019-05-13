@@ -220,6 +220,8 @@ h4.description
     text-decoration: none;
 
     color: #526d7a !important;
+
+    margin: 0 5px;
 }
 .meta
 {
@@ -258,6 +260,7 @@ section.meta {
 .social a
 {
     color: #526d7a;
+    margin: 0 5px;
 }
 .title
 {
