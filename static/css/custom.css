@@ -65,7 +65,9 @@ h4.description
 
 .menu-item
 {
+
     margin: 0 5px;
+    color: #526d7a !important;
 }
 
 .meta
