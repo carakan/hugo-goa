@@ -10,15 +10,6 @@
 {
     width: device-width;
 }
-
-p a {
-    text-decoration: underline !important;
-}
-
-li a {
-    text-decoration: underline !important;
-}
-
 a,
 a:hover,
 a:visited,
@@ -41,7 +32,6 @@ body
 
     background-color: #fcfcfc;
 }
-
 html
 {
     position: relative;
@@ -64,20 +54,9 @@ html
 {
     font-family: 'Roboto Slab', serif;
 }
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6
-{
-    font-family: 'Roboto Slab', serif;
-    color: #526d7a !important;
-    margin-top: 50px;
-}
 .category
 {
-    color: #526d7a !important;
+    color: #966 !important;
 }
 .container
 {
@@ -97,8 +76,7 @@ div.content
     font-size: 18px;
     font-weight: 300;
 
-    color: #666;
-
+    color: #777;
 }
 .copyright
 {
@@ -110,7 +88,7 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #666;
+    color: #8b8b8b;
 }
 .error
 {
@@ -122,13 +100,13 @@ div.content
 {
     font-size: 80px;
 
-    color: #666;
+    color: #8b8b8b;
 }
 .error p
 {
     margin-top: 150px;
 
-    color: #666;
+    color: #777;
 }
 .excerpt
 {
@@ -143,7 +121,7 @@ div.content
 {
     margin-top: 10px;
 
-    color: #666;
+    color: #8b8b8b;
 }
 .header
 {
@@ -164,19 +142,11 @@ div.content
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
-    color: #666;
+    color: #777;
 }
 h3.intro
 {
     margin-top: 0px
-}
-h5.description,
-h4.description
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    color: #666;
-
 }
 .list
 {
@@ -219,9 +189,7 @@ h4.description
 
     text-decoration: none;
 
-    color: #526d7a !important;
-
-    margin: 0 5px;
+    color: #966 !important;
 }
 .meta
 {
@@ -229,11 +197,11 @@ h4.description
     font-size: 12px;
     font-weight: 200;
 
-    color: #666;
+    color: #8b8b8b;
 }
 a.meta
 {
-    color: #526d7a;
+    color: #966;
 }
 h6.meta
 {
@@ -241,7 +209,7 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
-    color: #666;
+    color: #8b8b8b;
 }
 section.meta {
     margin-top:
@@ -260,7 +228,6 @@ section.meta {
 .social a
 {
     color: #526d7a;
-    margin: 0 5px;
 }
 .title
 {
@@ -288,22 +255,8 @@ header.title
         margin-top: 30px;
     }
 }
-code: not(.hljs)
-{
-    color: #526d7a !important;
-    background-color: #f1f5f9 !important;
-}
-
-pre {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    color: #333;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: #3f3f3f;
-    border: 0px solid #ccc;
-    border-radius: 4px
+pre > code {
+    white-space: pre;
+    word-wrap: initial;
+    word-break: initial;
 }
